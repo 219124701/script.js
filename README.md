@@ -55,5 +55,54 @@ you can also declare multiple variables with the same var keyword as follows-
 
       Java is an untyped language it means that javascript variable can hold a value of any data type , you dont have to tell have to javascript during a variable declaration what type of value the variable will hold.
 
+  # WEEK2 
+    WEB DESIGN
+
+    CALLIG ONE FUNCTION FROM ANOTHER FUNCTION
+Function Definition: You define multiple functions, each with a specific task to perform.
+
+Function Calls: Within one function, you can call another function to execute its task. This can be done using the function name followed by parentheses, optionally passing any required arguments.
+
+Chaining Functions: By nesting function calls within each other, you can create a sequence of actions. The output of one function can serve as input for another function, allowing you to build more complex processes
+
+    // Define three functions, each returning a string
+function function1() {
+    return "Hello";
+}
+
+function function2() {
+    return "world!";
+}
+
+function function3() {
+    return " How are you?";
+}
+
+// Define a main function that calls the three functions and concatenates their results
+function mainFunction() {
+    var result1 = function1();
+    var result2 = function2();
+    var result3 = function3();
+    var finalResult = result1 + " " + result2 + result3;
+    return finalResult;
+}
+
+// Call the main function and print the result
+console.log(mainFunction()); // Output: Hello world! How are you?
+
+  CREATING OBJECTS WITH USER-DEFINED FUNCTIONS:
+
+    
+
+
+    
+
+    
+    
+    
+    
+
+      
+
 
 
