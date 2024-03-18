@@ -92,8 +92,29 @@ console.log(mainFunction()); // Output: Hello world! How are you?
 
   CREATING OBJECTS WITH USER-DEFINED FUNCTIONS:
 
-    
+    To create objects with user-defined functions in JavaScript, you can use constructor functions or ES6 class syntax. Constructor functions are traditional and widely used, while ES6 classes provide syntactic sugar over constructor functions. Here's how you can create objects using both approaches:
 
+    
+// Define a constructor function
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+}
+
+// Add methods to the prototype of the constructor function
+Person.prototype.greet = function() {
+    return "Hello, my name is " + this.name + " and I am " + this.age + " years old.";
+}
+
+// Create instances of the Person object using the 'new' keyword
+var person1 = new Person("John", 30);
+var person2 = new Person("Alice", 25);
+
+// Call methods on the objects
+console.log(person1.greet()); // Output: Hello, my name is John and I am 30 years old.
+console.log(person2.greet()); // Output: Hello, my name is Alice and I am 25 years old.
+
+    JAVA EMAIL VALIDATION CODE EXPLAINED:
 
     
 
