@@ -114,8 +114,37 @@ var person2 = new Person("Alice", 25);
 console.log(person1.greet()); // Output: Hello, my name is John and I am 30 years old.
 console.log(person2.greet()); // Output: Hello, my name is Alice and I am 25 years old.
 
-    JAVA EMAIL VALIDATION CODE EXPLAINED:
+    # WEEK 2
+    #DAY 3
 
+      JAVASCRIPT METHODS AND THIS KEYWORD:
+In JavaScript, the this keyword refers to the object that is currently executing the code. It provides a way to access properties and methods of the current object within a function or method. Understanding how this works is essential for object-oriented programming and for working with JavaScript methods.In JavaScript, methods are functions that are associated with objects. They are defined within the context of an object and are accessed using dot notation.
+
+Example:
+
+const person = {
+  firstName: 'John',
+  lastName: 'Doe',
+  fullName: function() {
+    return this.firstName + ' ' + this.lastName;
+  }
+};
+
+console.log(person.fullName()); // Outputs: John Doe
+
+      
+    JAVA EMAIL VALIDATION CODE EXPLAINED:
+    
+Email validation is a crucial part of form validation, as it ensures that the email address provided by the user conforms to a certain format. While it's impossible to fully validate an email address using only JavaScript (the only sure way is to send a verification email), you can perform basic checks to ensure that the email address has a reasonable format.
+
+   function validateEmail(email) {
+  var re = /\S+@\S+\.\S+/; // Regular expression pattern for basic email format
+  
+  return re.test(email); // Returns true if the email matches the pattern, false otherwise
+}
+    
+
+    
     
 
     
