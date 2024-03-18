@@ -56,6 +56,7 @@ you can also declare multiple variables with the same var keyword as follows-
       Java is an untyped language it means that javascript variable can hold a value of any data type , you dont have to tell have to javascript during a variable declaration what type of value the variable will hold.
 
   # WEEK2 
+    # DAY2
     WEB DESIGN
 
     CALLIG ONE FUNCTION FROM ANOTHER FUNCTION
@@ -113,6 +114,16 @@ var person2 = new Person("Alice", 25);
 // Call methods on the objects
 console.log(person1.greet()); // Output: Hello, my name is John and I am 30 years old.
 console.log(person2.greet()); // Output: Hello, my name is Alice and I am 25 years old.
+
+ OPERATORS 
+1. Assignment operators
+2. Comparison operator
+3. Arithmetic operator
+4. Bitwise operator
+5. logical opereators
+6. String
+7. Conditional operator
+
 
     # WEEK 2
     #DAY 3
