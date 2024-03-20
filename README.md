@@ -199,6 +199,32 @@ Definition: An event handler is a function that is designed to respond to a part
 MULTI-PARAMETER FUNCTION CODING
 
 Multi-parameter coding involves writing functions or methods in programming languages that can accept multiple parameters. Parameters are variables passed into a function, providing input data for the function to operate on. This practice allows for flexible and reusable code, as functions can handle different types and quantities of data. It's a fundamental aspect of programming, enabling developers to create modular and efficient solutions for various tasks.
+  
+  THIS IS AN EXAMPLE OF A MULTTI-PARAMETER CODING:
+
+  // Function to calculate the area of a rectangle
+function calculateRectangleArea(width, height) {
+    return width * height;
+}
+
+// Calling the function with two arguments (width and height)
+var area = calculateRectangleArea(5, 3);
+console.log("Area of the rectangle:", area); // Output: Area of the rectangle: 15
+
+# DAY 2 
+    DYNAMIC JAVASCRIPT TECHNIQUES:
+    DYNAMIC AND STARTIC 
+
+   - STARTIC - rendering happens in Browser higher reactivity but data needs to be fetch after initial rendering.
+ - Security can be more complex   
+
+  DYNAMIC- Rendering happens on Server Finished page is served but needs to be generated first.
+  - Security needs to be easier. 
+
+    
+    
+
+    
 
     
 
