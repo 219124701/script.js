@@ -153,6 +153,68 @@ Email validation is a crucial part of form validation, as it ensures that the em
   
   return re.test(email); // Returns true if the email matches the pattern, false otherwise
 }
+
+# WEEK 3
+# DAY1
+
+ STRINGS OPERATIONS
+     Strings can created as primitives from string literals or as objects,using the strings() consructor e.g 
+    const string1 = "A string primitive";
+    const string2 = "Also a string primitive";
+    const string3 = "Yet another string primitive";
+    const string4 = new String ("A string object";
+
+    THE ONCLICK EVENT
+    
+    The Onclick Event is the most frequently used event types which occur when a user clicks the left button of his mouse.
+
+The onclick event in JavaScript is a type of event that occurs when a user clicks on an HTML element, such as a button, link, or image. It is one of the most commonly used event handlers in web development for adding interactivity to web pagOverall, the onclick event provides a simple yet powerful mechanism for adding interactive behavior to web pages. It allows developers to respond to user actions, such as clicks, taps, or touches, and create engaging and dynamic user experiences.
+
+  THE ONSUBMIT EVENT :
+    
+The onsubmit event in JavaScript is an event that occurs when a form is submitted by the user. It is commonly used to handle form submission in web applications and allows developers to perform actions such as form validation, data processing, or sending form data to a server.
+
+Here's a clear explanation of how the onsubmit event works:
+
+Form Submission: When a user submits a form by clicking on the submit button or by pressing the Enter key while focused on a form input field, the browser generates a submit event for the form.
+
+Event Handling: If an event handler function is registered for the onsubmit event of the form element, this function is executed when the form is submitted. The event handler function contains the code or instructions that should be performed before or after the form is submitted.
+
+Function Execution: Inside the event handler function, you can write JavaScript code to perform various tasks or actions related to form submission. Common tasks include form validation (checking if the entered data is valid), data processing (formatting or manipulating form data), and submitting the form data to a server (via AJAX or by redirecting to a new page).
+
+Preventing Default Behavior: In some cases, you may want to prevent the default behavior of the form submission, such as preventing the page from reloading or navigating to a new page. You can achieve this by calling the preventDefault() method on the event object passed to the event handler function.
+
+Form Validation: Form validation is a common use case for the onsubmit event. You can validate form fields to ensure that the user has entered valid data before allowing the form to be submitted. If validation fails, you can display error messages to the user and prevent the form from being submitted until the data is corrected.
+
+Overall, the onsubmit event provides a powerful mechanism for handling form submission in web applications. It allows developers to customize the behavior of form submission and perform additional actions as needed, making web forms more interactive and user-friendly.
+
+  EVENT HANDLERS
+    
+Event handlers in programming are functions that are executed in response to specific events occurring within an application or environment. These events could be triggered by user actions, such as clicking a button, hovering over an element, typing on a keyboard, or by system events like the completion of a file download.
+
+Definition: An event handler is a function that is designed to respond to a particular event. It "listens" for the event to occur and then executes its associated code when the event is triggered.
+
+  Overall, event handlers play a crucial role in creating interactive and dynamic user interfaces in web development and other software applications. They allow developers to respond to user interactions and system events, enabling rich and engaging user experiences.
+  
+MULTI-PARAMETER FUNCTION CODING
+
+Multi-parameter coding involves writing functions or methods in programming languages that can accept multiple parameters. Parameters are variables passed into a function, providing input data for the function to operate on. This practice allows for flexible and reusable code, as functions can handle different types and quantities of data. It's a fundamental aspect of programming, enabling developers to create modular and efficient solutions for various tasks.
+
+    
+
+
+
+
+    
+    
+      
+
+      
+    
+    
+    
+
+    
     
 
     
