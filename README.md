@@ -221,6 +221,70 @@ console.log("Area of the rectangle:", area); // Output: Area of the rectangle: 1
   DYNAMIC- Rendering happens on Server Finished page is served but needs to be generated first.
   - Security needs to be easier. 
 
+    DATA OBJECT:
+The Date object in JavaScript is used to work with dates and times. It provides methods for creating, manipulating, and formatting dates and times. The Date object is a built-in object in JavaScript that stores the date and time. It provides a number of built-in methods for formatting and managing that data. 
+
+ THIS IS HOW TO CREATE DATE OBJECT:
+  // Current date and time
+var currentDate = new Date();
+
+// Specifying date and time components
+var specificDate = new Date(2022, 0, 1, 12, 0, 0); // January 1, 2022, 12:00:00 PM
+
+ INTRODUCTION TO DAY 3  
+
+    KEYBOARD EVENTS: There are three keyboard events the keydown event, which is triggered when the key is pressed down on a keyboard. then keyup event that, is triggered when the key is released on the keyboard. last but not least we have the keypress event occurs when the key is pressed down on a keyboard that has the character associated with it.
+
+  FORM EVENTS:
+
+    Form events in JavaScript are events that occur when a user interacts with HTML form elements. These events allow you to perform actions such as validating user input, submitting form data, and updating the UI based on user actions. Here's a brief explanation of commonly used form events:
+      
+submit: Occurs when a form is submitted, either by clicking the submit button or pressing Enter while focused on a form field. Useful for form validation and data submission.
+
+reset: Occurs when a form is reset, either by clicking the reset button or programmatically calling the reset() method. Useful for clearing form fields or resetting form state.
+
+focus: Occurs when an element receives focus, typically when a user clicks on or tabs into an input field. Useful for providing visual cues or displaying help text.
+
+blur: Occurs when an element loses focus, typically when a user clicks outside of an input field or tabs to another element. Useful for validating user input or triggering actions based on focus change.
+
+change: Occurs when the value of an input field changes, such as typing in a text field or selecting an option from a dropdown menu. Useful for real-time validation or updating the UI based on user input.
+
+input: Similar to the change event, but triggered immediately as the value changes, often with each keystroke. Useful for real-time validation or providing feedback as the user types.
+
+keydown, keyup: Occur when a key is pressed or released while focused on an input field. Useful for implementing keyboard shortcuts or navigating through form fields.
+
+keypress: Occurs when a key that produces a character is pressed while focused on an input field. Useful for handling text input.
+
+These events enable you to create interactive and responsive forms in web applications, enhancing the user experience and providing feedback to users as they interact with form elements.
+
+  DOCUMENT/WINDOW EVENTS:
+
+ The load Event (onload)
+    
+  The load event occurs when a web page has finished loading in the web browser. You can handle the load event with the onload event handler. The following example will show you an alert message as soon as the page finishes loading.
+    
+    ![image](https://github.com/219124701/script.js/assets/158051727/c23071ab-21b1-404f-bd16-6f025dabac87)
+
+
+THE UNLOAD EVENT (onunload)
+
+    The unload event occurs when a user leaves the current web page. You can handle the unload event with the onunload event handler.
+      
+      ![image](https://github.com/219124701/script.js/assets/158051727/45aba35c-97fd-43b4-a359-4d38586a9be1)
+
+ THE RESIZE EVENT (onresize):
+
+    The resize event occurs when a user resizes the browser window. The resize event also occurs in situations when the browser window is minimized or maximized. You can handle the resize event with the onresize event handler.
+
+    ![image](https://github.com/219124701/script.js/assets/158051727/a8b3667c-b0f7-4ab0-9ecf-107a3ce5e67c)
+
+    
+    
+    
+
+    
+    
+
     
     
 
